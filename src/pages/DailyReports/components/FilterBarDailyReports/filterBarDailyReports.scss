@@ -1,0 +1,34 @@
+.filterBar {
+    float: right;
+    padding: 10px;
+
+    .filterBar-right {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+
+        .filter {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .add-btn {
+            padding: 5px 10px;
+            background-color: rgb(6, 197, 13);
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+        }
+    }
+}
+
+
+.anticon-export {
+    font-size: 25px;
+    background-color: rgb(56, 118, 244);
+    color: #fff;
+
+}

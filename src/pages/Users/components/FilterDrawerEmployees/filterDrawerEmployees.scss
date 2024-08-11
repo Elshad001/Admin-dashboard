@@ -1,0 +1,47 @@
+.filter-form {
+
+    form 
+    {
+        display: flex;
+        flex-direction: column;
+        gap:50px;
+    }
+    .form-item-wrapper {
+
+        display: flex;
+        flex-direction: column;
+        gap:50px;
+        height: auto;
+        
+        .form-item {
+            width: 80%;
+            height: 50px;
+            margin-top: 30px;
+
+            label 
+            {
+                display: block;
+                margin-bottom: 5px;
+            }
+            input {
+                width: 100%;
+                height:auto;
+                padding: 10px;
+                border: none;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+            }
+        }
+    }
+
+
+    button {
+        width:80%;
+        margin-top: 35px;
+        padding: 8px 16px;
+        background-color: rgb(40, 110, 240);
+        border: none;
+        border-radius: 5px;
+        color: white;
+    }
+}

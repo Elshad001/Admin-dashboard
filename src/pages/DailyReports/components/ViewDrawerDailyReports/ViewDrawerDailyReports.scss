@@ -1,0 +1,30 @@
+.report-details{
+    width:100%;
+    min-height:300px;
+    background-color: rgb(248, 241, 245);
+    padding:10px;
+    
+    p 
+    {
+        display: flex;
+        gap:30px;
+        width:100%;
+        height:auto;
+       
+        border:1px solid #ccc;
+        span:first-child
+        {
+            width:50px;
+            padding:15px;
+            font-weight:bold;
+        }
+        span:last-child
+        {
+            width:200px;
+            height:auto;
+            padding:15px 20px;
+            word-wrap: break-word;
+        }
+    }
+    
+}

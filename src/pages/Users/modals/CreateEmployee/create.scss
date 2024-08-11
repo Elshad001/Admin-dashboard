@@ -1,0 +1,47 @@
+.form-container
+{
+    height:auto;
+    label
+    {
+        display: block;
+        color:#333;
+    }
+
+    .form-item-wrapper
+     {
+
+        display: flex;
+        justify-content: space-between;
+        gap:50px;
+        height:auto;
+
+        .form-item{
+            width:80%;
+            height:auto;;
+            margin-top:30px;
+            color:rgb(244, 127, 127);
+    
+        input 
+        {
+            width:100%;
+            height:auto;
+            margin-top:5px;
+            padding:10px;
+            border:none;
+            border:1px solid #ccc;
+            border-radius:5px;
+        }
+        }
+    }
+   
+
+    button 
+    {
+        margin-top:35px;
+        padding:8px 16px;
+        background-color: rgb(40, 110, 240);
+        border: none;
+        border-radius:5px;
+        color:white;
+    }
+}

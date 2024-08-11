@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lexend", sans-serif;
+}
+
+.app-container {
+  display: flex;
+  height: 100vh;
+}
+.app-container .sidebar {
+  width: 18%;
+  transition: 0.5s ease-in-out;
+  height: 100%;
+}
+.app-container .closeSidebar {
+  width: 4%;
+  transition: 0.5s ease-in-out;
+}
+.app-container .main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.ant-table-content {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.ant-table-row:hover {
+  background-color: #cec5c5;
+  color: #333;
+}
+
+.app-container-dark {
+  display: flex;
+  height: 100vh;
+  background-color: #000;
+}
+.app-container-dark .ant-table-pagination-right .ant-pagination-item a {
+  border-radius: 5px;
+  background-color: #f1f7f3;
+  color: #070707;
+}
+.app-container-dark .ant-table-pagination-right li .ant-pagination-item-link .anticon {
+  color: #fbf7f7;
+}
+.app-container-dark .ant-table {
+  background-color: rgb(47, 49, 47);
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+}
+.app-container-dark .ant-table .ant-table-container .ant-table-content table thead.ant-table-thead .ant-table-cell {
+  background-color: rgb(47, 49, 47);
+  color: white;
+}
+.app-container-dark .sidebar {
+  width: 18%;
+  transition: 0.5s ease-in-out;
+  height: 100%;
+}
+.app-container-dark .closeSidebar {
+  width: 4%;
+  transition: 0.5s ease-in-out;
+}
+.app-container-dark .main-content-dark {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #1f1d1d;
+  color: white;
+}
+
+.edit-icon {
+  width: 50px;
+  height: 50px;
+  padding: 6px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #77caf0;
+  color: #0c75ad;
+}
+
+.view-icon {
+  width: 50px;
+  height: 50px;
+  padding: 6px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #91faac;
+  color: #0c981f;
+}
+
+.reset-icon {
+  width: 50px;
+  height: 50px;
+  padding: 6px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #f3cbab;
+  color: #8a620d;
+}
+
+.delete-icon {
+  width: 50px;
+  height: 50px;
+  padding: 6px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #f6b9c0;
+  color: rgb(209, 10, 10);
+}
+
+.anticon-plus-circle {
+  font-size: 30px;
+  color: rgb(31, 210, 43);
+}/*# sourceMappingURL=index.css.map */
